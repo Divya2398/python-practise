@@ -35,15 +35,15 @@ print(a)
 for x,y in mo.person1.items():
   print(x,y)
 
-d = dir(mo)
+d = dir({mo})
 print(d)
 
 from module import person1 as pa
 if "age" in pa:
   print("true")
 
-help('print')
-help('str')
-help('keywords') # all keywords in python
-import functools
-help(functools)
+help(print)
+help(string)
+import functools as ft
+help(ft)
+
